@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    font-family: Old Standard TT, cursive;
+    background: linear-gradient(135deg, #1C1C1C, #3A3A3A, #707070, #D5D5D5);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 2px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #C0C0C0;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #C0C0C0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #C0C0C0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+    background-image: url('images/cover.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid #C0C0C0; /* Silver instead of gold */
+    box-shadow: 0 0 10px rgba(192, 192, 192, 0.5); /* Soft glow effect */
+    border-radius: 10px;
+    background-image: url("images/cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy.gif");
+}
+
+#gift-img-nod:hover {
+    background-image: url("images/nod.gif");
+}
+
+#gift-img-thankyou:hover {
+    background-image: url("images/thankyou.gif");
+}
+
+#gift-img-handsome:hover {
+    background-image: url("images/handsome.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+    background-position: top;
+}
+
+footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
